@@ -1,0 +1,9 @@
+token = 'vk1.a.pjub-i9Mp7cC5k92c6eie8atzzwGNmip_U6ltN07pOBHomT5K-5PBObF5YBDFNVhufyq1ssJm816XLQRFjb2Et8m0hlriztlCGj5Cmv1OgIbctTWu0sX7lyRllT6QP2EMfHIn1ss4yZ9dCp41DBSxOwLxuWLoF6SitgZVdZh_OUPfXzv7IATTAOwbR2Iwxj3jU-X65B0ft5CdJ1aotPFjQ'
+g_id = 188446752
+admin_id = 296431501
+max_warns = 3
+max_msgs_per_minutes = 4
+host = 'localhost'
+db_name = 'bot'
+user = 'bot_user'
+password = 'bot_user_password'
