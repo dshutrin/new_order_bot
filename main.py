@@ -35,7 +35,7 @@ class Bot:
 					'id': event.obj['message']['from_id']
 				}
 
-				if not self.base.get_user(uinf['id']):
+				if self.base.get_user(uinf['id']) == None:
 					self.base.add_user(uinf['id'])
 
 				self.base.add_message(uinf['id'], time.time())
