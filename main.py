@@ -35,10 +35,10 @@ class Bot:
 					'id': event.obj['message']['from_id']
 				}
 
-				self.base.add_message(uinf['id'], time.time())
-
-				if self.base.get_user(uinf['id']) == None:
+				if not self.base.get_user(uinf['id']):
 					self.base.add_user(uinf['id'])
+
+				self.base.add_message(uinf['id'], time.time())
 
 				bad = False
 				for word in self.bad_words:

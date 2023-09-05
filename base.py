@@ -15,7 +15,6 @@ class Base:
 	def get(self, query):
 		self.cur.execute(query)
 		a = self.cur.fetchall()
-		print(a)
 		return [x[0] for x in a]
 
 	def add_warning(self, user_id):
