@@ -10,7 +10,7 @@ class Bot:
 		self.session = vk_api.VkApi(token=token)
 		self.longpoll = VkBotLongPoll(self.session, group_id=g_id)
 		self.bad_words = self.get_bad_words()
-		self.base = Base('localhost', 'new_db', 'root', 'Ltkmnf-02')
+		self.base = Base(host, db_name, user, password)
 
 	@staticmethod
 	def get_bad_words():
